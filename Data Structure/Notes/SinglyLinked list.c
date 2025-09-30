@@ -58,6 +58,11 @@ node addAtNth(node head, int data, int pos)
         temp = temp->next;
         count++;
     }
+    if(temp == NULL)
+    {
+        printf("Position out of bound\n");  
+        return head;
+    }
     new->next = temp->next;
     temp->next = new;
     return head;
