@@ -1,4 +1,4 @@
-//  Q1.Write a C program to enter whole number, find and display the minimum number among the 4 entered numbers.
+    //  Q1.Write a C program to enter whole number, find and display the minimum number among the 4 entered numbers.
 //  Algorithm for Q1 
 //  Declare 4 Variables using int data type next step enter the number, next step condition to check which one is the minimum among the 4 number
 
