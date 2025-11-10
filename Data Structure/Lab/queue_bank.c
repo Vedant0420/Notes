@@ -1,8 +1,8 @@
+//Write a C program to implement a queue to manage customers waiting at a bank counter, perform operation to add a customer serve a customer and display the queue.
+
 #include <stdio.h>
 #include <stdlib.h>
-
 #define MAX 100
-
 struct Queue {
     int arr[MAX];
     int front, rear;
