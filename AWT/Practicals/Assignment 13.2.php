@@ -6,7 +6,6 @@ class BankAccount {
     public function __construct($accNum, $bal = 0) {
         $this->accountNumber = $accNum;
         $this->balance = $bal;
-    }
 
     public function deposit($amount) {
         $this->balance += $amount;
